@@ -1,4 +1,4 @@
-
+/* 
 
     const tienda = [
         {
@@ -34,5 +34,42 @@ function compra (prenda){
 compra("buzo");
 compra("campera");
 compra("pantalon");
+*/
+
+
+
+console.log(pokemon)
+console.log(pokemon.pokemon)
+
+
+const cards = pokemon.pokemon.reduce((acc, elemento) => {
+
+    return acc = acc + `
+        <div class= "tarjeta">
+            <div class= "img-container">
+                <img src=${elemento.img} alt=${elemento.name}>
+            </div>
+            <p>
+                ${elemento.name}
+            </p>
+            <p>
+                ${elemento.height}
+            </p>
+            <p>
+                ${elemento.weight}
+            </p>
+        </div>
+    
+    `
+}, "")
+
+console.log(cards)
+
+const containerCards = document.querySelector(".contenedor-tarjetas")
+
+console.log(containerCards)
+
+containerCards.innerHTML = cards
+
 
 
