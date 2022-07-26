@@ -1,26 +1,39 @@
-/* 
+
 
     const tienda = [
         {
             prenda: "buzo",
             tallesDisponibles:["S", "M", "L", "XL"],
-            precio: 20,
+            precio: 80,
         },
         {
             prenda: "campera",
             tallesDisponibles: ["S", "M", "L", "XL"],
-            precio: 25,
+            precio: 90,
         },
         {
             prenda: "pantalon",
             tallesDisponibles: ["S", "M", "L", "XL"],
-            precio: 22,
+            precio: 60,
         },
     ];
 
+
+console.log(tienda.sort( (a, b) => {
+
+    if(a.precio > b.precio){
+        return 1
+    }
+    else if( a.precio < b.precio){
+        return -1
+    }
+}));
+
+
+
 function compra (prenda){
     if (prenda === "buzo"){
-        prendaElegida= tienda.slice(0, 1)
+        prendaElegida = tienda.slice(0, 1)
         console.log(prendaElegida)
     }else if (prenda === "campera"){
         prendaElegida = tienda.slice(1, 2)
@@ -31,14 +44,26 @@ function compra (prenda){
     }
 };
 
-compra("buzo");
+const cuotas = (precio, cantidadCuotas) => {
+    if (cantidadCuotas === 3) {
+        console.log(`En 3 cuotas de ${precio / 3} dolares.`);
+    } else if (cantidadCuotas !== 3 && cantidadCuotas === 6) {
+        console.log(`En 6 cuotas de ${precio / 6} dolares.`);
+    } else {
+        console.log(`En 12 cuotas de ${precio / 12} dolares.`);
+    }
+}
+
+
 compra("campera");
-compra("pantalon");
-*/
+cuotas(90, 12)
 
 
 
-console.log(pokemon)
+
+
+
+/* console.log(pokemon)
 console.log(pokemon.pokemon)
 
 
@@ -70,6 +95,6 @@ const containerCards = document.querySelector(".contenedor-tarjetas")
 console.log(containerCards)
 
 containerCards.innerHTML = cards
-
+ */
 
 
