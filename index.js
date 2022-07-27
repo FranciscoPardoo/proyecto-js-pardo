@@ -1,4 +1,40 @@
 
+console.log(pokemon)
+console.log(pokemon.pokemon)
+
+
+const cards = pokemon.pokemon.reduce((acc, elemento) => {
+
+    return acc = acc + `
+        <div class= "tarjeta">
+            <div class= "img-container">
+                <img src=${elemento.img} alt=${elemento.name}>
+            </div>
+            <p>
+                ${elemento.name}
+            </p>
+            <p>
+                ${elemento.height}
+            </p>
+            <p>
+                ${elemento.weight}
+            </p>
+        </div>
+    
+    `
+}, "")
+
+console.log(cards)
+
+const containerCards = document.querySelector(".contenedor-tarjetas")
+
+console.log(containerCards)
+
+containerCards.innerHTML = cards
+
+
+
+/* 
 
     const tienda = [
         {
@@ -56,45 +92,4 @@ const cuotas = (precio, cantidadCuotas) => {
 
 
 compra("campera");
-cuotas(90, 12)
-
-
-
-
-
-
-/* console.log(pokemon)
-console.log(pokemon.pokemon)
-
-
-const cards = pokemon.pokemon.reduce((acc, elemento) => {
-
-    return acc = acc + `
-        <div class= "tarjeta">
-            <div class= "img-container">
-                <img src=${elemento.img} alt=${elemento.name}>
-            </div>
-            <p>
-                ${elemento.name}
-            </p>
-            <p>
-                ${elemento.height}
-            </p>
-            <p>
-                ${elemento.weight}
-            </p>
-        </div>
-    
-    `
-}, "")
-
-console.log(cards)
-
-const containerCards = document.querySelector(".contenedor-tarjetas")
-
-console.log(containerCards)
-
-containerCards.innerHTML = cards
- */
-
-
+cuotas(90, 12) */
