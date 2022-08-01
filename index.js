@@ -1,23 +1,19 @@
 
-console.log(pokemon)
-console.log(pokemon.pokemon)
+console.log(tienda)
 
 
-const cards = pokemon.pokemon.reduce((acc, elemento) => {
+const cards = tienda.reduce((acc, elemento) => {
 
     return acc = acc + `
         <div class= "tarjeta">
             <div class= "img-container">
-                <img src=${elemento.img} alt=${elemento.name}>
+                <img src=${elemento.img} alt=${elemento.prenda}>
             </div>
             <p>
-                ${elemento.name}
+                ${elemento.precio}
             </p>
             <p>
-                ${elemento.height}
-            </p>
-            <p>
-                ${elemento.weight}
+                ${elemento.tallesDisponibles}
             </p>
         </div>
     
@@ -34,28 +30,46 @@ containerCards.innerHTML = cards
 
 
 
-/* 
+const nuevaSuscripcion = [];
 
-    const tienda = [
-        {
-            prenda: "buzo",
-            tallesDisponibles:["S", "M", "L", "XL"],
-            precio: 80,
-        },
-        {
-            prenda: "campera",
-            tallesDisponibles: ["S", "M", "L", "XL"],
-            precio: 90,
-        },
-        {
-            prenda: "pantalon",
-            tallesDisponibles: ["S", "M", "L", "XL"],
-            precio: 60,
-        },
-    ];
+class NuevoSuscriptor {
+    constructor(nombre, apellido, email){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.email = email;
+    }
+};
+
+const formulario = document.querySelector("#formulario");
+const inputNombre = document.querySelector("#nombre");
+const inputApellido = document.querySelector("#apellido");
+const inputEmail = document.querySelector("#email");
+const submit = document.querySelector("#submit");
 
 
-console.log(tienda.sort( (a, b) => {
+formulario.onsubmit = (event) => {
+    event.preventDefault()
+    nuevaSuscripcion.push(new NuevoSuscriptor(inputNombre.value, inputApellido.value, inputEmail.value))
+    console.log(nuevaSuscripcion)
+}
+
+
+
+const mayorPrecio = document.querySelector("#mostrarMayor");
+const menorPrecio = document.querySelector("#mostrarMenor");
+
+
+const mayorAMenor = tienda.sort( (a, b) => {
+
+    if(b.precio > a.precio){
+        return 1
+    }
+    else if( b.precio < a.precio){
+        return -1
+    }
+});
+
+const menorAMayor = tienda.sort( (a, b) => {
 
     if(a.precio > b.precio){
         return 1
@@ -63,33 +77,18 @@ console.log(tienda.sort( (a, b) => {
     else if( a.precio < b.precio){
         return -1
     }
-}));
+});
 
-
-
-function compra (prenda){
-    if (prenda === "buzo"){
-        prendaElegida = tienda.slice(0, 1)
-        console.log(prendaElegida)
-    }else if (prenda === "campera"){
-        prendaElegida = tienda.slice(1, 2)
-        console.log(prendaElegida)
-    }else {
-        prendaElegida = tienda.slice(2, 3)
-        console.log(prendaElegida)
-    }
-};
-
-const cuotas = (precio, cantidadCuotas) => {
-    if (cantidadCuotas === 3) {
-        console.log(`En 3 cuotas de ${precio / 3} dolares.`);
-    } else if (cantidadCuotas !== 3 && cantidadCuotas === 6) {
-        console.log(`En 6 cuotas de ${precio / 6} dolares.`);
-    } else {
-        console.log(`En 12 cuotas de ${precio / 12} dolares.`);
-    }
+const clickMayor = function(){
+    console.log(mayorAMenor)
 }
 
+mayorPrecio.addEventListener("click", clickMayor);
+mayorPrecio.removeEventListener("click", clickMayor);
 
-compra("campera");
-cuotas(90, 12) */
+const clickMenor = function(){
+    console.log(menorAMayor)
+}
+
+menorPrecio.addEventListener("click", clickMenor);
+menorPrecio.removeEventListener("click", clickMenor);
