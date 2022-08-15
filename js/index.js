@@ -32,6 +32,15 @@ function agregarCarrito(e) {
 
     localStorage.setItem("carrito", JSON.stringify(carrito));
 
+    Toastify({
+        text: "Agregaste " + itemsSeleccionados.prenda + " al carrito.",
+        close: true,
+        duration: 2000,
+        style: {
+            background:"rgb(0, 110, 255)",
+        },
+    }).showToast() 
+
     carritoAlFinal()
 }
 

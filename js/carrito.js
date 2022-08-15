@@ -22,7 +22,6 @@ function itemsCarrito() {
 segundoCarrito.length ? itemsCarrito() : (detalleCompra.innerHTML=`<h3>No has añadido ningun item al carrito</h3>`)
 
 function finalizarCompra() {
-
     if (nombre.value !== "" && mail.value !== "" && tarjeta.value !== "" && direccion.value !== "") {
         divConfirmacion.innerHTML = `
 <h3>Gracias por tu compra ${nombre.value}!</h3>
