@@ -3,20 +3,85 @@
     padding: 0px;
 }
 
-.title-div{
+.navegacion{
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 100;
+}
+
+.navegacion-container{
+    background-color: whitesmoke;
+    height: 15vh;
+}
+
+.navegacion-title{
     display: flex;
     justify-content: center;
+    padding-left: 40vw ;
 }
 
-.title-nav{
-    font-size: 75px;
-    padding-left: 60px;
+.title{
+    font-family: 'PT Serif', serif;
+    font-size: 50px;
+    color: black;    
 }
 
-.div-nav{
+.navegacion-div{
+    justify-content: center;
+    width: 40vw;
+}
+
+.navegacion-div :hover {
+    text-decoration:underline;
+    color: black;
+}
+
+.boton-nav-div{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+    color: black;
+}
+
+
+.barra-secciones{
     display: flex;
-    justify-content:flex-end;
-    padding-right: 60px;
+    justify-content: center;
+    background-color: rgb(32, 30, 30);
+    height: 10vh;
+}
+
+.barra-list{
+    display: flex;
+    flex-direction: row;
+    padding-left: 15vw;
+}
+
+.barra-item{
+    list-style: none;
+    padding: 15px 40px 15px 40px; 
+    text-transform: uppercase;
+}
+
+.barra-item :hover {
+    transform: scale(0.9);
+}
+
+.main-container{
+    padding-top: 30vh;
+}
+
+.parrafo-carrousel{
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 40vh;
+}
+
+.carrousel-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .card{
@@ -26,8 +91,9 @@
 .section-productos {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
+    padding-left: 2vw;
 }
 
 #prendas {
@@ -118,6 +184,14 @@
     background-color: rgb(0, 110, 255);
 }
 
+footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top: 10px ridge rgb(32, 30, 30);
+}
+
 .detalle {
     display: flex;
     flex-direction: row;
@@ -200,6 +274,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 30vh;
 }
 
 #confirmacion{
@@ -210,4 +285,27 @@ form {
     border: 1px black solid;
     border-radius: 10px;
     padding: 2em;
+}
+
+.sobre-nosotros{
+    padding-top: 30vh;
+}
+
+.sobre-nosotros-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-nosotros-div h2 {
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+    padding: 15px;
+}
+
+.sobre-nosotros-div p {
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    padding: 15px;
 }

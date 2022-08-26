@@ -28,7 +28,7 @@ const mostrarProductos = data => {
             <div class="card-body">
             <h5 class="card-title">${producto.prenda}</h5>
             <p class="card-text"> $ ${producto.precio}</p>
-            <button id="${producto.id}" class="agregar btn btn-primary">Agregar al carrito</button>
+            <button id="${producto.id}" class="agregar btn btn-dark">Agregar al carrito</button>
             </div>
         </div>
         `
