@@ -47,14 +47,14 @@
 .barra-secciones{
     display: flex;
     justify-content: center;
-    background-color: rgb(32, 30, 30);
+    background-color: rgb(32, 32, 32);
     height: 10vh;
 }
 
 .barra-list{
     display: flex;
     flex-direction: row;
-    padding-left: 15vw;
+    padding-left: 8vw;
 }
 
 .barra-item{
@@ -116,11 +116,11 @@
     flex-direction: column;
     align-items: center;
     margin-top: 2em;
-    margin-left: 18em;
+    margin-left: 14em;
     margin-bottom: 8em;
     background-color: whitesmoke;
-    border-top: 2px rgb(0, 110, 255) solid;
-    width: 60%;
+    border-top: 2px rgb(32, 32, 32) solid;
+    width: 50vw;
 }
 
 #carritoSection .tituloCarrito {
@@ -131,6 +131,8 @@
 #vaciar {
     padding: 0.4em 1em 0.4em 1em;
     border-radius: 10px;
+    border-color: transparent;
+    background-color: rgb(32, 32, 32);
 }
 
 #vaciar:hover {
@@ -166,7 +168,7 @@
     padding: 0.4em 1em 0.4em 1em;
     border-radius: 10px;
     color: white;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(32, 32, 32);
     border-color: transparent;
 }
 
@@ -178,10 +180,11 @@
 
 .terminarCompra {
     padding: 0.4em 1em 0.4em 1em;
+    margin-bottom: 1em;
     border-radius: 10px;
     border: transparent;
     color: white;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(32, 32, 32);
 }
 
 footer div{
@@ -189,7 +192,7 @@ footer div{
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
-    border-top: 10px ridge rgb(32, 30, 30);
+    border-top: 10px ridge rgb(32, 32, 32);
 }
 
 .detalle {
@@ -204,20 +207,24 @@ footer div{
     height: auto;
 }
 
+.seguir-comprando{
+    padding: 0px;
+}
+
 .seguir {
     padding: 0.4em 1em 0.4em 1em;
-    color: white;
-    background-color: rgb(0, 110, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 32, 32);
     border-radius: 10px;
     text-decoration: none;
 }
 
 .checkout {
-    width: 90%;
+    width: 95vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10em;
+    gap: 5em;
     margin-top: 3em;
 }
 
@@ -225,11 +232,11 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: 50%;
+    width: 50vw;
 }
 
 #detalle {
-    width: 50%;
+    width: 30vw;
 }
 
 #detalle h2 {
@@ -246,26 +253,20 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 50vw;
 }
 
 #form{
-    width: 90%;
+    width: 50vw;
     gap: 2em;
 }
 
-#form input{
-    border-style: none;
-    border-bottom: 1px black solid;
-    text-align: center;
-    padding: 0.2em;
-    color: black;
-}
-
-#form #submit{
+#form #enviarFormulario{
+    width: 100vw;
+    align-items: center;
     padding: 0.4em 1em 0.4em 1em;
     color: white;
-    background-color: rgb(0, 110, 255);
+    background-color: rgb(30, 32, 32);
     border-radius: 10px;
     text-decoration: none;
 }
@@ -279,6 +280,7 @@ form {
 
 #confirmacion{
     margin-top: 2em;
+    margin-bottom: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;

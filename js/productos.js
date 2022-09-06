@@ -1,7 +1,7 @@
-[
+const tienda = [
     {
         "id": "1",
-        "categoria": "Buzos",
+        "categoria": "BUZOS",
         "prenda": "buzo A",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
@@ -9,7 +9,7 @@
     },
     {
         "id": "2",
-        "categoria": "Buzos",
+        "categoria": "BUZOS",
         "prenda": "buzo B",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
@@ -17,7 +17,7 @@
     },
     {
         "id": "3",
-        "categoria": "Buzos",
+        "categoria": "BUZOS",
         "prenda": "buzo C",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
@@ -25,7 +25,7 @@
     },
     {
         "id": "4",
-        "categoria": "Buzos",
+        "categoria": "BUZOS",
         "prenda": "buzo D",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
@@ -33,7 +33,7 @@
     },
     {
         "id": "5",
-        "categoria": "Buzos",
+        "categoria": "BUZOS",
         "prenda": "buzo E",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
@@ -41,7 +41,7 @@
     },
     {
         "id": "6",
-        "categoria": "Buzos",
+        "categoria": "BUZOS",
         "prenda": "buzo F",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
@@ -49,7 +49,7 @@
     },
     {
         "id": "7",
-        "categoria": "Camperas",
+        "categoria": "CAMPERAS",
         "prenda": "campera A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 12600,
@@ -57,7 +57,7 @@
     },
     {
         "id": "8",
-        "categoria": "Camperas",
+        "categoria": "CaAMPERAS",
         "prenda": "campera B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 12600,
@@ -65,7 +65,7 @@
     },
     {
         "id": "9",
-        "categoria": "Camperas",
+        "categoria": "CaAMPERAS",
         "prenda": "campera C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 20900,
@@ -73,7 +73,7 @@
     },
     {
         "id": "10",
-        "categoria": "Camperas",
+        "categoria": "CaAMPERAS",
         "prenda": "campera D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
@@ -81,7 +81,7 @@
     },
     {
         "id": "11",
-        "categoria": "Camperas",
+        "categoria": "CAMPERAS",
         "prenda": "campera E",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
@@ -89,7 +89,7 @@
     },
     {
         "id": "12",
-        "categoria": "Camperas",
+        "categoria": "CAMPERAS",
         "prenda": "campera F",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
@@ -97,7 +97,7 @@
     },
     {
         "id": "13",
-        "categoria": "Camperas",
+        "categoria": "CAMPERAS",
         "prenda": "campera G",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
@@ -105,7 +105,7 @@
     },
     {
         "id": "14",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 9900,
@@ -113,7 +113,7 @@
     },
     {
         "id": "15",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 9900,
@@ -121,7 +121,7 @@
     },
     {
         "id": "16",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 9900,
@@ -129,7 +129,7 @@
     },
     {
         "id": "17",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7100,
@@ -137,7 +137,7 @@
     },
     {
         "id": "18",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon E",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7100,
@@ -145,7 +145,7 @@
     },
     {
         "id": "19",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon F",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7100,
@@ -153,7 +153,7 @@
     },
     {
         "id": "20",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon G",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7900,
@@ -161,7 +161,7 @@
     },
     {
         "id": "21",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon H",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7900,
@@ -169,7 +169,7 @@
     },
     {
         "id": "22",
-        "categoria": "Pantalones",
+        "categoria": "PANTALONES",
         "prenda": "pantalon I",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7900,
@@ -177,7 +177,7 @@
     },
     {
         "id": "23",
-        "categoria": "Remeras",
+        "categoria": "REMERAS",
         "prenda": "remera A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
@@ -185,7 +185,7 @@
     },
     {
         "id": "24",
-        "categoria": "Remeras",
+        "categoria": "REMERAS",
         "prenda": "remera B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
@@ -193,7 +193,7 @@
     },
     {
         "id": "25",
-        "categoria": "Remeras",
+        "categoria": "REMERAS",
         "prenda": "remera C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
@@ -201,7 +201,7 @@
     },
     {
         "id": "26",
-        "categoria": "Remeras",
+        "categoria": "REMERAS",
         "prenda": "remera D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
@@ -209,7 +209,7 @@
     },
     {
         "id": "27",
-        "categoria": "Remeras",
+        "categoria": "REMERAS",
         "prenda": "remera E",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
@@ -217,7 +217,7 @@
     },
     {
         "id": "28",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "gorra A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
@@ -225,7 +225,7 @@
     },
     {
         "id": "29",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "gorra B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
@@ -233,7 +233,7 @@
     },
     {
         "id": "30",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "gorra C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
@@ -241,7 +241,7 @@
     },
     {
         "id": "31",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "gorra D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
@@ -250,7 +250,7 @@
 
     {
         "id": "32",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "medias A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 1100,
@@ -258,7 +258,7 @@
     },
     {
         "id": "33",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "medias B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 1100,
@@ -266,7 +266,7 @@
     },
     {
         "id": "34",
-        "categoria": "Accesorios",
+        "categoria": "ACCESORIOS",
         "prenda": "medias C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 1100,
