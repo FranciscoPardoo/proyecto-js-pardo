@@ -5,11 +5,7 @@ const tienda = [
         "prenda": "buzo A",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/A910ADB7-7C06-41F4-8840-AB49CF1DDEBA-scaled-600x899.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/4-3-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "2",
@@ -17,11 +13,7 @@ const tienda = [
         "prenda": "buzo B",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/3BA798F8-2DDB-4330-B188-93EA9C53C397-scaled-600x899.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/11/Productos-Mayo-5-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "3",
@@ -29,11 +21,7 @@ const tienda = [
         "prenda": "buzo C",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/AA002557-EC7B-408C-985F-1F661BD316FF-scaled-600x899.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/creme-final-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "4",
@@ -41,11 +29,7 @@ const tienda = [
         "prenda": "buzo D",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/8D2F74FF-A5D5-444F-ADD2-145E4E750B90-scaled-600x899.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/4-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "5",
@@ -53,11 +37,7 @@ const tienda = [
         "prenda": "buzo E",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/3BA798F8-2DDB-4330-B188-93EA9C53C397-scaled-600x899.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/04/hoodie-verde-1-final.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "6",
@@ -65,11 +45,7 @@ const tienda = [
         "prenda": "buzo F",
         "tallesDisponibles":["S", "M", "L", "XL"],
         "precio": 9800,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/07/Freres-estudio-W23-47-600x902.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/Productos-Mayo-1-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "7",
@@ -77,7 +53,6 @@ const tienda = [
         "prenda": "campera A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 12600,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/D57443F9-030D-4022-B7F1-BD168EFA4941-1280x1280.jpeg"
     },
     {
@@ -103,33 +78,6 @@ const tienda = [
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
         "img": "https://freres.ar/wp-content/uploads/2023/03/3-4-scaled-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/03/img_0607.jpeg"
-    },
-    {
-        "id": "8",
-        "categoria": "CaAMPERAS",
-        "prenda": "campera B",
-        "tallesDisponibles": ["S", "M", "L", "XL"],
-        "precio": 12600,
-        "img": "https://freres.ar/wp-content/uploads/2022/03/img_0606.jpeg"
-    },
-    {
-        "id": "9",
-        "categoria": "CaAMPERAS",
-        "prenda": "campera C",
-        "tallesDisponibles": ["S", "M", "L", "XL"],
-        "precio": 20900,
-        "img": "https://freres.ar/wp-content/uploads/2021/08/img_0584-1.jpeg"
-    },
-    {
-        "id": "10",
-        "categoria": "CaAMPERAS",
-        "prenda": "campera D",
-        "tallesDisponibles": ["S", "M", "L", "XL"],
-        "precio": 11900,
-        "img": "https://freres.ar/wp-content/uploads/2022/03/img_0608.jpeg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "11",
@@ -137,11 +85,7 @@ const tienda = [
         "prenda": "campera E",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-2-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/3-4-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "12",
@@ -149,11 +93,7 @@ const tienda = [
         "prenda": "campera F",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/Productos-Mayo-23-15-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/3-6-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "13",
@@ -161,11 +101,7 @@ const tienda = [
         "prenda": "campera G",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 11900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/Productos-Mayo-23-17-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/3-5-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "14",
@@ -173,11 +109,7 @@ const tienda = [
         "prenda": "pantalon A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 9900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Productos-Diciembre-3-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/2-8-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "15",
@@ -185,11 +117,7 @@ const tienda = [
         "prenda": "pantalon B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 9900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Productos-Febrero-12-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/regular-bleu-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "16",
@@ -197,11 +125,7 @@ const tienda = [
         "prenda": "pantalon C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 9900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/C674F31B-C1A3-4A26-A906-42C512C59EAE-1280x1280.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/Pantalones-4-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "17",
@@ -209,11 +133,7 @@ const tienda = [
         "prenda": "pantalon D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7100,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Productos-Marzo-2-2-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/06/Productos-Junio-3-1-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "18",
@@ -221,11 +141,7 @@ const tienda = [
         "prenda": "pantalon E",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7100,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Productos-15-copia-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/06/Productos-Junio-3-2-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "19",
@@ -233,11 +149,7 @@ const tienda = [
         "prenda": "pantalon F",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7100,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Productos-Marzo-2-1-1280x1280.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/06/Productos-Junio-3-3-1-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "20",
@@ -245,11 +157,7 @@ const tienda = [
         "prenda": "pantalon G",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-2-2-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/Productos-Junio-8-3-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "21",
@@ -257,11 +165,7 @@ const tienda = [
         "prenda": "pantalon H",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-2-4-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/Productos-Junio-8-4-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "22",
@@ -269,11 +173,7 @@ const tienda = [
         "prenda": "pantalon I",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 7900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/07/Prendas-Julio-6-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/Productos-Junio-9-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "23",
@@ -281,11 +181,7 @@ const tienda = [
         "prenda": "remera A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-12-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/03/Productos-Abril-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "24",
@@ -293,11 +189,7 @@ const tienda = [
         "prenda": "remera B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/05/Productos-Mayo-23-9-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/06/Productos-Junio-7-2-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "25",
@@ -305,11 +197,7 @@ const tienda = [
         "prenda": "remera C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Productos-noviembre-2-5-scaled-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/01/Remera-over-gris-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "26",
@@ -317,11 +205,7 @@ const tienda = [
         "prenda": "remera D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/07/productor-mayo-8-scaled.jpeg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/over-azul-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "27",
@@ -329,11 +213,7 @@ const tienda = [
         "prenda": "remera E",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 4900,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/06/Productos-Diciembre-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/over-janue-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "28",
@@ -341,11 +221,7 @@ const tienda = [
         "prenda": "gorra A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Gorras-copia3-scaled-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/07/5-4-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "29",
@@ -353,11 +229,7 @@ const tienda = [
         "prenda": "gorra B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Gorras-copia4-scaled-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/Productos-Mayo-2-3-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "30",
@@ -365,11 +237,7 @@ const tienda = [
         "prenda": "gorra C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Gorras-copia5-scaled-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/Productos-Mayo-2-2-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "31",
@@ -377,11 +245,7 @@ const tienda = [
         "prenda": "gorra D",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 3600,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/03/Gorras-copia-scaled-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2022/05/Productos-Mayo-2-1-scaled.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
 
     {
@@ -390,11 +254,7 @@ const tienda = [
         "prenda": "medias A",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 1100,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-2-10-scaled.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/10/k.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "33",
@@ -402,11 +262,7 @@ const tienda = [
         "prenda": "medias B",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 1100,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-2-6-600x600.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/10/j.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     },
     {
         "id": "34",
@@ -414,10 +270,6 @@ const tienda = [
         "prenda": "medias C",
         "tallesDisponibles": ["S", "M", "L", "XL"],
         "precio": 1100,
-<<<<<<< HEAD
         "img": "https://freres.ar/wp-content/uploads/2023/08/Prendas-Agosto-2-6-600x600.jpg"
-=======
-        "img": "https://freres.ar/wp-content/uploads/2021/10/l.jpg"
->>>>>>> c0811a3de8c57bb21f54cb530bdebd6f4716f308
     }
 ]
